@@ -1,0 +1,50 @@
+li {
+    list-style: none;
+}
+
+.container-app {
+    margin: 200px 0px 150px;
+    display: grid;
+    place-items: center;
+    
+}
+
+main {
+    border-radius: 20px;
+    padding: 60px;
+    height: 100%;
+    width: 65%;
+    background-color: #1B1D1F;
+    text-align: center;
+    color: #FEF7EE;
+}
+
+.coffes {
+    display: grid;
+    place-content: center;
+    gap: 35px;
+    grid-template-columns: repeat(1,1fr);
+}
+
+@media (min-width: 1024px) {
+    main {
+        width: 70%;
+  }
+
+  .coffes {
+      grid-template-columns: repeat(2,1fr);
+  }
+
+}
+
+@media (min-width: 1280px) {
+    main {
+        width: 85%;
+  }
+
+    .coffes {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
