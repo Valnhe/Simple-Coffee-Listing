@@ -18,7 +18,6 @@ function Card({ products }) {
           </section>
 
             {/* Second line desc */}
-
           <section className="container-info">
             <section className="votes">
 
@@ -42,7 +41,8 @@ function Card({ products }) {
 
             {/* If its sould out */}
             {!product.available && <p className='sold-out'>Sold Out</p>}
-          </section>
+        </section>
+        
       </li>
       ))
   )

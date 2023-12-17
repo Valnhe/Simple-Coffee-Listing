@@ -10,4 +10,12 @@ body {
     height: 100%;
     background-image: url('images/bg-cafe.jpg');
     background-repeat: no-repeat;
+    background-size: 170%;
+    background-position: center top;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-size: 100% auto;
+    }
 }
