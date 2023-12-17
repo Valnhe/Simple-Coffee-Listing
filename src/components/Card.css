@@ -12,7 +12,7 @@
     font-size: 14px;
     padding: 5px 10px;
     position: absolute;
-    top: 10px;
+    top: 8px;
     left: 8px;
 }
 
@@ -27,7 +27,6 @@
     width: 100%;
     height: auto;
     border-radius: 15px;
- 
 }
 
 .container-info {
@@ -36,7 +35,9 @@
     align-items: center;
     color: #FEF7EE;
     margin-top: 10px;
+    font-weight: bold;
 }
+
 .price {
     font-size: 12px;
     background-color: #BEE3CC;
@@ -53,7 +54,6 @@
 
 .grey {
     color: #6F757C;
-    font-weight: bold
 }
 
 .sold-out {
