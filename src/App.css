@@ -42,25 +42,25 @@ nav {
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
-    font-size: 16px;
 }
 
 nav button {
-    padding: 5px 10px;
+    padding: 10px 15px;
     border: none;
     font-weight: bold;
     color: #FEF7EE;
     background-color: transparent;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:first-child {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .active {
     background-color: #6F757C;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 @media (min-width: 1024px) {
     main {
