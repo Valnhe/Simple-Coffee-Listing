@@ -7,6 +7,7 @@ export default function App() {
     <div className='container-app'>
       <main>
         <h1>Our Collection</h1>
+        <h2>Handpicked just for you</h2>
         <p>
         Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly.
         </p>
